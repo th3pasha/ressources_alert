@@ -42,7 +42,7 @@ The setup script will:
 . Prompt you to set thresholds for CPU, RAM, and Disk usage.
 . Ask for the periodic execution interval (e.g., every 5 minutes).
 . Automatically create a cron job to execute main.sh , that will create automaticaly a cron job to execute main.sh , you can cancel it after by opening Crontab file using this command :
-# crontabe -e 
+#crontabe -e 
 then delete the line that schedules the main.sh script
 
 
